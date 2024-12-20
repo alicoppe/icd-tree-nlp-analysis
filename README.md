@@ -23,8 +23,8 @@ Key contributions:
   - **`regimen.py`**: Implements training regimen of the structural probe, along with prediction.
   
 - `notebooks/`: Jupyter notebooks for running experiments and visualizing results:
-  - **`ICD_tree_tester.ipynb`**: Tests the ICD tree structure and calculates Spearman correlations for embedding distances.
-  - **`weight_adjustment_tester.ipynb`**: Optimizes depth weights using Monte Carlo search and evaluates its impact on correlations.
+  - **`ICD_tree_tester.ipynb`**: Establishes and tests the ICD tree structure, along with helper functions.
+  - **`weight_adjustment_tester.ipynb`**: First assesses the correlation of embeddings with the ICDTree on unoptimized weights, then optimizes depth weights using Monte Carlo search and evaluates its impact on correlations.
   - **`full_probing_approach.ipynb`**: Implements a structural probing approach inspired by the work of Hewitt & Manning (2019), analyzing the structural geometry of ICD embeddings.
 - `README.md`: Project overview and usage instructions.
 
